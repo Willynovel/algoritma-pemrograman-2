@@ -15,7 +15,6 @@ string getDayFromCode(int kode) {
         default: return "Kode tidak valid";
     }
 }
-
 int main() {
     int kode;
 
