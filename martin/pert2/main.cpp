@@ -18,35 +18,6 @@ std::string GetDayString(int day) {
     return it != dayMap.end() ? it->second : "Error code, check your input";
 }
 
-// std::string GetDayString(int day) {
-//     std::string dayStr;
-//     switch (day) {
-//         case 1 :
-//             dayStr = "Senin";
-//             break;
-//         case 2 :
-//             dayStr = "Selasa";
-//             break;
-//         case 3 :
-//             dayStr = "Rabu";
-//             break;
-//         case 4 :
-//             dayStr = "Kamis";
-//             break;
-//         case 5 :
-//             dayStr = "Jumat";
-//             break;
-//         case 6 :
-//             dayStr = "Sabtu";
-//             break;
-//         case 7 :
-//             dayStr = "Minggu";
-//             break;
-//         default:
-//             dayStr = "Error code, check your input";
-//     }
-//     return dayStr;
-// }
 
 
 
