@@ -20,7 +20,7 @@ int main() {
     int kode;
 
     //Nama Saya
-    cout << "Halo, saya Arya Fadhil Sagitarisandy | 231011400263 | 03TPLE006" << endl;
+    cout << "TUGAS AKHIR 1 | Halo, saya Arya Fadhil Sagitarisandy | 231011400263 | 03TPLE006" << endl;
     
     // Inputan dari terminal
     cout << "Masukkan kode (1-7): ";
