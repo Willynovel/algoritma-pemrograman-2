@@ -17,7 +17,10 @@ float HitungLuas(float r) {
 
 
 int main() {
-    std::cout << HitungLuas(7.0) << std::endl;
-    std::cout << HitungVolume(7.0) << std::endl;
+    float input;
+    std::cout << "Masukkan jari-jari : "; 
+    std::cin >> input;
+    std::cout << HitungLuas(input) << std::endl;
+    std::cout << HitungVolume(input) << std::endl;
     return 0;
 }
