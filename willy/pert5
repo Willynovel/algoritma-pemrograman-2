@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, t1 = 0, t2 = 1, nextTerm = 0;
+
+    // Input banyaknya deret Fibonacci yang ingin ditampilkan
+    cout << "Masukkan jumlah bilangan Fibonacci yang ingin ditampilkan: ";
+    cin >> n;
+
+    // Menampilkan dua bilangan pertama dari deret Fibonacci
+    cout << "Fibonacci: " << t1 << " " << t2 << " ";
+    int count = 2; // Dua bilangan pertama sudah ditampilkan
+
+    // Menggunakan while loop untuk menampilkan bilangan Fibonacci berikutnya
+    while (count < n) {
+        nextTerm = t1 + t2;
+        cout << nextTerm << " ";
+        t1 = t2;
+        t2 = nextTerm;
+        count++;
+    }
+
+    cout << endl;
+    return 0;
+}
